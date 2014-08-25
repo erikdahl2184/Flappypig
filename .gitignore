@@ -1,36 +1,21 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#eclipse files
+.project
+.settings
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# temp files
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
+Desktop.ini
+npm-debug.log
 
-# Icon must ends with two \r.
-Icon
+# project specific ignore
+node_modules/
 
-# Thumbnails
-._*
+# Vim swap files
+*.sw*
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+*.sublime-project
+
+clumsy-bird.sublime-workspace
+bower_components
+build/clumsy.js
