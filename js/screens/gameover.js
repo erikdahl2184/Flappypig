@@ -54,8 +54,8 @@ game.GameOverScreen = me.ScreenObject.extend({
 
     // share button
     var buttonsHeight = me.video.getHeight() / 2 + 200;
-    this.share = new Share(me.video.getWidth()/3 - 100, buttonsHeight);
-    me.game.world.addChild(this.share, 12);
+    this.share = new Share(me.video.getWidth()/3 - 000, buttonsHeight);
+    me.game.world.addChild(this.share, 10);
 
     //tweet button
     this.tweet = new Tweet(this.share.pos.x + 170, buttonsHeight);
