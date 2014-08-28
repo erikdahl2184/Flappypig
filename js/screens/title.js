@@ -28,7 +28,7 @@ game.TitleScreen = me.ScreenObject.extend({
     me.game.world.addChild(logo, 10);
 
     var logoTween = new me.Tween(logo.pos).to({y: me.game.viewport.height/2 - 100},
-        1000).easing(me.Tween.Easing.Exponential.InOut).start();
+        10).easing(me.Tween.Easing.Exponential.InOut).start();
 
     this.ground = new TheGround();
     me.game.world.addChild(this.ground, 11);
